@@ -1,0 +1,555 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #000000;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo__text {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.logo__text_fs-3 {
+  font-size: 3rem;
+}
+
+.logo__text_fs-6 {
+  font-size: 6rem;
+}
+
+.logo__text_it {
+  color: #ff8b38;
+  font-weight: 100;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #f5f5f5;
+  opacity: 0.7;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+  color: #ff8b38;
+}
+
+.template__content-info {
+  width: 45%;
+}
+
+.template__header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/bg_main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.template__title {
+  font-size: 2.25rem;
+  font-family: "Raleway";
+  font-weight: 200;
+}
+
+.template__title_white {
+  color: #ffffff;
+}
+
+.line {
+  width: 67px;
+  height: 2px;
+}
+
+.line_white {
+  background-color: #ffffff;
+}
+
+.line_margin-2 {
+  margin: 2rem 0;
+}
+
+.description {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: gray;
+  opacity: 0.8;
+}
+
+.btn-download {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.btn-download_m {
+  margin: 1.4rem 0;
+}
+
+.btn-download:hover {
+  cursor: pointer;
+  background-color: #808080;
+}
+
+.template__form {
+  width: 30%;
+  background-color: #ffffff;
+}
+
+.template__form__title {
+  width: 100%;
+  height: 54px;
+  margin: 0;
+  padding: 1rem 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  color: #333333;
+  font-size: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+.template__form__title_color-orange {
+  color: #ff8b38;
+}
+
+.inputfield {
+  width: 100%;
+  font-size: 0.875rem;
+  padding: 38px 29px 9px 36px;
+  color: #bdbdbd;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  padding-top: 2rem;
+}
+
+.inputfield_m-b-49 {
+  margin-bottom: 49px;
+}
+
+.btn-form {
+  width: 100%;
+  height: 54px;
+  background-color: #ff9b51;
+  color: white;
+  font-size: 0.95rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  background-color: orange;
+}
+
+.brandbar {
+  border-bottom: 2px solid #cccccc;
+  padding: 23px 0px 22px 0px;
+}
+
+.brandbar__container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandbar__info {
+  width: 25%;
+}
+
+.brandbar__text {
+  color: #333333;
+  font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.brandbar__description {
+  color: #86878b;
+  font-size: 0.875rem;
+  font-family: "Raleway", sans-serif;
+  padding-top: 10px;
+}
+
+.brandbar__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  list-style-type: none;
+  padding: 0 18px;
+}
+
+.brandbar__icons__item svg {
+  width: 46px;
+  height: 46px;
+  fill: #cccccc;
+}
+
+.brandbar__icons__item svg:hover {
+  cursor: pointer;
+  fill: #333333;
+}
+
+.features {
+  width: 100%;
+  margin: 106px auto;
+  text-align: center;
+}
+
+.features__description {
+  font-size: 0.875rem;
+  color: #86878b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.features__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 200;
+}
+
+.line_orange {
+  background-color: #ffa500;
+}
+
+.card__image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 30px;
+  border: 2px solid #ffa500;
+  border-radius: 50%;
+}
+
+.bulb {
+  background-image: url("images/bulb.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.keyboard {
+  background-image: url("images/keyboard.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lightning {
+  background-image: url("images/lightning.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: calc(100% / 3);
+  float: left;
+  margin-bottom: 107px;
+}
+
+.features__header {
+  margin-bottom: 80px;
+  color: #212121;
+}
+
+.card_p-lr-30 {
+  padding: 0 32px;
+}
+
+.pricing {
+  overflow: hidden;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 104px;
+  padding-bottom: 96px;
+  text-align: center;
+}
+
+.pricing__description {
+  font-size: 0.875rem;
+  color: #86878b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pricing__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 200;
+}
+
+.line_orange {
+  margin: 2rem auto;
+  background-color: #ff8c2d;
+}
+
+.pricing__header {
+  margin-bottom: 80px;
+}
+
+.pricing__wrapper {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.price__list {
+  width: calc((100% / 3) - 3px);
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #86878b;
+  padding: 0;
+}
+
+.price__list_m-lr-40 {
+  margin: 0 40px;
+}
+
+.price__item_gray {
+  border: 1px solid #f5f5f5;
+  background-color: #303030;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.price__item_gray_p-21 {
+  padding: 21px 0;
+  font-weight: 600;
+}
+
+.price__item_gray_b-b-0 {
+  border-bottom: 0;
+  padding: 1rem 0;
+}
+
+.price__item_gray_fs-5 {
+  font-size: 5rem;
+}
+
+.price__item_orange {
+  border: 1px solid #f5f5f5;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #ff8c2d;
+  height: 5px;
+}
+
+.price__item_orange_p-15 {
+  background-color: #ff8c2d;
+  color: #ffffff;
+  padding: 15px 0px;
+}
+
+.price__item_fs-i-14 {
+  font-style: italic;
+  font-size: 0.875rem;
+  color: #989898;
+}
+
+.price__item_white {
+  border: 1px solid #f5f5f5;
+  background-color: #ffffff;
+  line-height: 40px;
+}
+
+.design {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("images/city.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.design__blinding {
+  overflow: hidden;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.design__header {
+  margin-top: 76px;
+  margin-bottom: 33px;
+}
+
+.design__title {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+
+.design__description {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  opacity: 0.8;
+}
+
+.design__line {
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+  background-color: #ffffff;
+}
+
+.btn {
+  margin: 0 auto;
+  margin-bottom: 63px;
+  border: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #808080;
+}
+
+.contact__us {
+  width: 100%;
+  margin: 106px auto;
+  text-align: center;
+}
+
+.contact__wrapper {
+  width: 77%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contact__form {
+  width: 50%;
+}
+
+.contact__inputfield {
+  width: 90%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #bdbdbd;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  padding-top: 32px;
+  padding-bottom: 9px;
+}
+
+.contact__form-message {
+  width: 47%;
+}
+
+.contact__inputfield-message {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  /* color: #bdbdbd; */
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 0;
+  padding-bottom: 108px;
+}
+
+.btn-contact {
+  width: 148px;
+  height: 46px;
+  background-color: #ff9b51;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 43px;
+  border: 0;
+  padding: 0;
+}
+
+.btn-contact:hover {
+  cursor: pointer;
+  background-color: #ffa500;
+}
+
+.design__footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000000;
+  text-align: center;
+}
+
+.design__footer__icons {
+  display: flex;
+  width: 20%;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 39px 0 15px 0;
+}
+
+.design__footer__icons svg {
+  width: 23px;
+  height: 23px;
+  fill: #cccccc;
+}
+
+.design__footer__icons svg:hover {
+  cursor: pointer;
+  fill: #ffffff;
+}
+
+.design__footer__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.75rem;
+  color: #ffffff;
+  background-color: #000000;
+  padding-bottom: 10px;
+}
