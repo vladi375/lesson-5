@@ -60,19 +60,21 @@
             <span class="template__form__title_color-orange">FREE</span> Trial
             Today
           </p>
-          <label for="try">
-            <input class="inputfield" id="try" placeholder="Name" /><br />
-          </label>
-          <label for="try">
-            <input class="inputfield" id="try" placeholder="Email" /><br />
-          </label>
-          <label for="try">
-            <input
-              class="inputfield inputfield_m-b-49"
-              id="try"
-              placeholder="Password"
-            /><br />
-          </label>
+          <section class="form__inputfield">
+            <label for="try">
+              <input class="inputfield" id="try" placeholder="Name" /><br />
+            </label>
+            <label for="try">
+              <input class="inputfield" id="try" placeholder="Email" /><br />
+            </label>
+            <label for="try">
+              <input
+                class="inputfield inputfield_m-b-49"
+                id="try"
+                placeholder="Password"
+              /><br />
+            </label>
+          </section>
           <button class="btn-form" type="submit">Get Started</button>
         </form>
       </section>
@@ -440,7 +442,7 @@
             accumsan et viverra.
           </p>
         </section>
-        <section class="card card_p-lr-30">
+        <section class="card">
           <div class="card__image keyboard"></div>
           <h2 class="card__title">Well Crafted</h2>
           <p class="features__description">
@@ -544,28 +546,34 @@
       </header>
       <section class="contact__wrapper">
         <form action="" class="contact__form">
-          <label for="type">
-            <input class="contact__inputfield" id="type" placeholder="Name" />
-          </label>
-          <label for="type">
-            <input class="contact__inputfield" id="type" placeholder="Email" />
-          </label>
-          <label for="type">
-            <input
-              class="contact__inputfield"
-              id="type"
-              placeholder="Subject"
-            />
-          </label>
-        </form>
-        <form action="" class="contact__form-message">
-          <textarea
-            class="contact__inputfield-message"
-            placeholder="Message"
-          ></textarea>
+          <section class="contact__form__inputfield">
+            <label for="type">
+              <input class="contact__inputfield" id="type" placeholder="Name" />
+            </label>
+            <label for="type">
+              <input
+                class="contact__inputfield"
+                id="type"
+                placeholder="Email"
+              />
+            </label>
+            <label for="type">
+              <input
+                class="contact__inputfield"
+                id="type"
+                placeholder="Subject"
+              />
+            </label>
+          </section>
+          <section class="contact__form__inputfield-message">
+            <textarea
+              class="contact__inputfield-message"
+              placeholder="Message"
+            ></textarea>
+          </section>
+          <button type="submit" class="btn-contact">Send Message</button>
         </form>
       </section>
-      <button type="submit" class="btn-contact">Send Message</button>
     </article>
     <footer class="design__footer">
       <ul class="design__footer__icons">
