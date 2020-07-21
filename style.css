@@ -58,6 +58,7 @@
 .menu__item:hover {
   cursor: pointer;
   color: #ff8b38;
+  transition-duration: 1s;
 }
 
 .template__content-info {
@@ -102,7 +103,9 @@
 .description {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
-  color: gray;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #ffffff;
   opacity: 0.8;
 }
 
@@ -123,11 +126,13 @@
 .btn-download:hover {
   cursor: pointer;
   background-color: #808080;
+  transition-duration: 1s;
 }
 
 .template__form {
   width: 30%;
   background-color: #ffffff;
+  color: #bdbdbd;
 }
 
 .template__form__title {
@@ -147,14 +152,18 @@
   color: #ff8b38;
 }
 
+.form__inputfield {
+  padding: 38px 29px 0px 36px;
+}
+
 .inputfield {
   width: 100%;
   font-size: 0.875rem;
-  padding: 38px 29px 9px 36px;
-  color: #bdbdbd;
+  padding: 11px 220px 9px 14px;
+  margin-bottom: 36px;
   border: 0;
+  outline: none;
   border-bottom: 1px solid #bdbdbd;
-  padding-top: 2rem;
 }
 
 .inputfield_m-b-49 {
@@ -177,6 +186,7 @@
 
 .btn-form:hover {
   background-color: orange;
+  transition-duration: 1s;
 }
 
 .brandbar {
@@ -227,6 +237,7 @@
 .brandbar__icons__item svg:hover {
   cursor: pointer;
   fill: #333333;
+  transition-duration: 1s;
 }
 
 .features {
@@ -285,18 +296,13 @@
 }
 
 .card {
-  width: calc(100% / 3);
-  float: left;
+  width: 30%;
   margin-bottom: 107px;
 }
 
 .features__header {
   margin-bottom: 80px;
   color: #212121;
-}
-
-.card_p-lr-30 {
-  padding: 0 32px;
 }
 
 .pricing {
@@ -454,6 +460,7 @@
 .btn:hover {
   cursor: pointer;
   background-color: #808080;
+  transition-duration: 1s;
 }
 
 .contact__us {
@@ -463,7 +470,7 @@
 }
 
 .contact__wrapper {
-  width: 77%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -471,6 +478,15 @@
 }
 
 .contact__form {
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contact__form__inputfield {
   width: 50%;
 }
 
@@ -485,15 +501,15 @@
   padding-bottom: 9px;
 }
 
-.contact__form-message {
-  width: 47%;
+.contact__form__inputfield-message {
+  width: 45%;
 }
 
 .contact__inputfield-message {
   width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
-  /* color: #bdbdbd; */
+  color: #bdbdbd;
   border: 0;
   border-bottom: 1px solid #bdbdbd;
   padding: 0;
@@ -508,6 +524,7 @@
   font-size: 0.95rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  margin: 0 auto;
   margin-top: 43px;
   border: 0;
   padding: 0;
@@ -516,6 +533,7 @@
 .btn-contact:hover {
   cursor: pointer;
   background-color: #ffa500;
+  transition-duration: 1s;
 }
 
 .design__footer {
@@ -543,7 +561,8 @@
 
 .design__footer__icons svg:hover {
   cursor: pointer;
-  fill: #ffffff;
+  fill: #ff8b38;
+  transition-duration: 1s;
 }
 
 .design__footer__text {
